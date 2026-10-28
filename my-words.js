@@ -5,7 +5,7 @@
 
 
 // 显示在开始画面上的单元名称 · unit name shown on the start screen
-const UNIT_NAME = "中三 单元一";
+const UNIT_NAME = "中三单元一";
 
 // 每一局的时间，单位是秒 · seconds per run
 const SECONDS = 90;
@@ -19,16 +19,19 @@ const SECONDS = 90;
 //   3. 至少 8 个词语（最少 4 个才跑得起来），越多越好
 //
 const VOCAB = [
-  { word: "维护", def: "保持、保障，使不受破坏" },
-  { word: "策略", def: "为了达到某个目标而定下的计划或方法" },
-  { word: "催促", def: "叫人赶快行动，不要拖延" },
-  { word: "沉浸", def: "完全进入某种境界或思想活动中" },
-  { word: "渲染", def: "夸大地形容，使气氛更浓" },
-  { word: "斟酌", def: "反复考虑，仔细掂量是否合适" },
-  { word: "潜移默化", def: "在不知不觉中受到影响而发生变化" },
-  { word: "锲而不舍", def: "一直刻下去不放手，比喻有恒心、不放弃" },
-  { word: "南辕北辙", def: "行动和目的正好相反，永远到不了" },
-  { word: "举一反三", def: "从一件事类推，懂得其他许多事" },
+  { word: "人际", def: "人和人之间的" },
+  { word: "坦率", def: "说话直接，不隐瞒" },
+  { word: "隐瞒", def: "故意不说真话，掩盖事实" },
+  { word: "粗鲁", def: "说话做事不礼貌，很粗暴" },
+  { word: "纠纷", def: "相互对立，不一致" },
+  { word: "磋商", def: "商量讨论" },
+  { word: "融洽", def: "关系和谐，相处得好" },
+  { word: "诀窍", def: "做好某件事的关键方法" },
+  { word: "聆听", def: "仔细地听" },
+  { word: "死党", def: "比喻情谊深厚的朋友" },
+  { word: "迥然", def: "差别很大，截然不同" },
+  { word: "咄咄逼人", def: "气势逼人，说话或态度强硬" },
+  { word: "避讳", def: "忌讳，不愿提及" },
   // ↑ 照上面的格式往下加就行。别忘了行尾的逗号。
   // ↑ Add more in the same format. Don't forget the comma at the end of each line.
 ];
